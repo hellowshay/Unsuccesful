@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #D1D1D1;
+    font-family: 'Inter', sans-serif;
+}
+
+.frame {
+    width: 100%;
+    max-width: 393px; 
+    height: 100vh; 
+    background-color: #2A57D8;
+    position: relative;
+    border-radius: 40px;     
+    overflow: hidden;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.Exmark {
+    width: 50%;
+    max-width: 194px;
+    height: auto;
+}
+
+h2 {
+    font-size: 5vw; 
+    color: white;
+    font-weight: 700;
+    margin: 2vh 0;
+}
+
+.message {
+    font-size: 2vw;
+    color: white;
+    font-weight: 400;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+.CarIcon {
+    max-width: 200px;
+    height: auto;
+    margin: -5vh;
+}
+
+button {
+    width: 30%;
+    max-width: 109px;
+    height: auto;
+    padding: 10px 0;
+    background-color: white;
+    color: black;
+    font-size: 4vw;
+    border: none;
+    border-radius: 18px;
+    margin-top: 2vh;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ddd;
+}
